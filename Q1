@@ -1,0 +1,14 @@
+def DecimalToBinary(number):
+
+    if number > 1:
+     DecimalToBinary(number // 2)
+    print(number % 2, end = '')
+
+#Driver Code
+if __name__ == '__main__':
+
+    #decimal value
+    Dec_Val = 24
+
+    #Calling function 
+    DecimalToBinary(Dec_Val)
