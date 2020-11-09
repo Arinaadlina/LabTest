@@ -1,0 +1,10 @@
+def multiply_output(function)
+
+num = input ("Enter number")
+value = int (num)
+
+def multiplyby2(a):
+return a*2
+
+a = multiplyby2(10)*value
+print(a)
